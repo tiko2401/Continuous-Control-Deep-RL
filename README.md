@@ -17,7 +17,7 @@ To run the code and train the agent, the dependencies in the ./python folder nee
 The command, however, is also included into the solution notebook.
 
 
-Also, the UnityEnvironment package needs to be installed. Detailed instructions can be found here (https://classroom.udacity.com/nanodegrees/nd893/parts/286e7d2c-e00c-4146-a5f2-a490e0f23eda/modules/089d6d51-cae8-4d4b-84c6-9bbe58b8b869/lessons/5b822b1d-5c89-4fd5-9b52-a02ddcfd3385/concepts/2303cf3b-d5dc-42b0-8d15-e379fa76c6d5 "here").
+Also, the UnityEnvironment package needs to be installed. Detailed instructions can be found [here](https://classroom.udacity.com/nanodegrees/nd893/parts/286e7d2c-e00c-4146-a5f2-a490e0f23eda/modules/089d6d51-cae8-4d4b-84c6-9bbe58b8b869/lessons/5b822b1d-5c89-4fd5-9b52-a02ddcfd3385/concepts/2303cf3b-d5dc-42b0-8d15-e379fa76c6d5).
 
 ## Instructions
 
