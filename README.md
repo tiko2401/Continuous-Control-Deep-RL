@@ -2,12 +2,9 @@
 
 ## Environment Details
 
-The environment is a continuous space within the Banana Collection environment provided bei UnityEnvironment. 
-There is one Agent acting in the environment. 
-The action space is __discrete__ and consists of four actions, namely 0 (forward), 1(backward), 2(left), 3(right) which the agent can use to navigate through the environment.
-The Agent acts based on a state it receives as input. The __state space__ has 37 dimensions which represent the state e.g. in terms of its velocity.
-As the Agent navigates through the environment, it receives rewards for collecting bananas. For yellow bananas the reward is +1, for blue ones it is -1. 
-The environment is considered closed when the Agent collected __a reward of +13__ over 100 consecutive episodes.
+In the environment, a double-jointed arm can move to target locations. A reward of +0.1 is provided for each step that the agent's hand is in the goal location. Thus, the goal of your agent is to maintain its position at the target location for as many time steps as possible.
+
+The observation space consists of 33 variables corresponding to position, rotation, velocity, and angular velocities of the arm. Each action is a vector with four numbers, corresponding to torque applicable to two joints. Every entry in the action vector should be a number between -1 and 1.
 
 ## Dependencies
 
@@ -20,7 +17,7 @@ To run the code and train the agent, the dependencies in the ./python folder nee
 The command, however, is also included into the solution notebook.
 
 
-Also, the UnityEnvironment package needs to be installed. Detailed instructions can be found here (https://classroom.udacity.com/nanodegrees/nd893/parts/6b0c03a7-6667-4fcf-a9ed-dd41a2f76485/modules/4eeb16ab-5ac5-47bf-974d-12784e9730d7/lessons/69bd42c6-b70e-4866-9764-9bfa8c03cdea/concepts/319dc918-bd2c-4d3b-80a5-063bb5f1905a "here").
+Also, the UnityEnvironment package needs to be installed. Detailed instructions can be found here (https://classroom.udacity.com/nanodegrees/nd893/parts/286e7d2c-e00c-4146-a5f2-a490e0f23eda/modules/089d6d51-cae8-4d4b-84c6-9bbe58b8b869/lessons/5b822b1d-5c89-4fd5-9b52-a02ddcfd3385/concepts/2303cf3b-d5dc-42b0-8d15-e379fa76c6d5 "here").
 
 ## Instructions
 
